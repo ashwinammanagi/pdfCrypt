@@ -46,7 +46,6 @@ func generateRandomPassword() string {
 	n := 16 + int(length.Int64())
 
 	b := make([]byte, n)
-	_, _ = rand.Read(b) // ignore error on purpose
 
 	return base64.RawURLEncoding.EncodeToString(b)
 }
