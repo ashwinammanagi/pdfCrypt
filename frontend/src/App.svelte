@@ -73,8 +73,8 @@
   </div>
 
   <div class="form-group">
-    <button class="btn" on:click={chooseFile}>Choose PDF</button>
     <div class="file-path">{inputPath}</div>
+    <button class="btn" on:click={chooseFile}>Choose PDF</button>
 
     <input
       class="input"
@@ -121,8 +121,8 @@
 
   main {
     max-width: 420px;
-    margin: 5vh auto;
-    padding: 2rem 1rem;
+    margin: 3vh auto;
+    padding: 1rem 1rem;
     font-family: system-ui, sans-serif;
     box-sizing: border-box;
   }
@@ -185,6 +185,7 @@
     font-size: 0.8rem;
     color: #9faebf;
     word-break: break-word;
+    text-overflow: ellipsis;
   }
 
   .input {
@@ -231,7 +232,8 @@
     margin-top: 1.5rem;
     font-size: 0.9rem;
     color: #b2f5ea;
-    word-break: break-word;
+    /* word-break: break-word; */
+    text-overflow: ellipsis;
     text-align: center;
   }
 
