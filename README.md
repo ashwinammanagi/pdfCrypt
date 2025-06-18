@@ -1,15 +1,12 @@
 # 📄 pdfCrypt
 
-**pdfCrypt** is a fast, secure, and cross-platform desktop application to **encrypt** and **decrypt PDF files** using a clean and user-friendly UI built with [Wails](https://wails.io) and Svelte.
+**pdfCrypt** is a free, secure, and cross-platform desktop application to **encrypt** and **decrypt PDF files** offline.
 
 ### 🛡️ Why this app?
 
-Most free tools for PDF encryption or decryption are either:
+**pdfCrypt** runs **entirely on your device**, with no internet dependency. It's built with [pdfcpu](https://github.com/pdfcpu/pdfcpu), [Wails](https://wails.io) and [Svelte](https://svelte.dev) under the hood and works on **macOS**, **Windows**, and **Linux**.
 
-- **Windows-only**, or
-- **Online services** where you must upload sensitive documents — something we don’t feel safe doing.
-
-**pdfCrypt** runs **entirely on your device**, with no internet dependency. It's built with [pdfcpu](https://github.com/pdfcpu/pdfcpu) under the hood and works on **macOS**, **Windows**, and **Linux**.
+Most free tools for PDF encryption or decryption are either Windows only or online services where you must upload sensitive documents — something we don’t feel safe doing.
 
 ---
 
@@ -18,8 +15,8 @@ Most free tools for PDF encryption or decryption are either:
 - 🔒 **Encrypt PDFs** with a password
 - 🔓 **Decrypt PDFs** using the correct password
 - 🎛️ Set PDF permissions: print, modify, extract, annotate, and more
-- ⚡ Clean UI powered by Svelte
 - 💯 Offline-first and open source
+- ⚡ Clean UI
 
 ---
 

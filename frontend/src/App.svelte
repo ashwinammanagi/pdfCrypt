@@ -125,6 +125,8 @@
     padding: 1rem 1rem;
     font-family: system-ui, sans-serif;
     box-sizing: border-box;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
   }
 
   .title {
